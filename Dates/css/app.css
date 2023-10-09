@@ -1,0 +1,65 @@
+html {
+    min-height: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #006f3d;
+background: linear-gradient(267deg,#006f3d 10%, #00250e 90%);
+background: -webkit-linear-gradient(267deg,#006f3d 10%, #00250e 90%);
+background: -moz-linear-gradient(267deg,#006f3d 10%, #00250e 90%);
+    min-height: 100%;
+    padding-bottom: 5rem;
+  }
+  .titulo {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(230, 230, 230);
+  }
+  .container {
+      background-color: rgb(242, 242, 242);
+      box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
+      border-radius: 10px;
+  }
+  header {
+    margin-top: 3rem;
+  }
+  header h1 {
+    color: white;
+  }
+  .lista-citas .cita {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    
+  }
+  .lista-citas .cita:last-of-type {
+    border-bottom: 0;
+  }
+  
+  .lista-citas .cita p {
+    margin:0;
+  }
+  .lista-citas .cita button {
+    margin-top: 1rem!important;
+  }
+  .lista-citas .cita span {
+    font-weight: bold;
+  }
+  textarea {
+      height: 200px!important;
+  }
+  
+  svg {
+    width: 21px; 
+  }
+
+  .button-crear {
+   background-color: #006f3d;
+    color: white;
+    border: 1px solid black;
+  }
