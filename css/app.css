@@ -2,24 +2,20 @@ html {
     min-height: 100%;
   }
   body {
-    margin: 0;
-    padding: 0;
     font-family: sans-serif;
-    background: #006f3d;
-background: linear-gradient(267deg,#006f3d 10%, #00250e 90%);
-background: -webkit-linear-gradient(267deg,#006f3d 10%, #00250e 90%);
-background: -moz-linear-gradient(267deg,#006f3d 10%, #00250e 90%);
-    min-height: 100%;
-    padding-bottom: 5rem;
+    background: url("perroygato3.jpg") no-repeat center center fixed;
+    background-size: cover;
+   
   }
   .titulo {
     font-weight: bold;
     font-size: 3rem;
     text-transform: uppercase;
-    color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);
   }
   .container {
-      background-color: rgb(242, 242, 242);
+    opacity: 90%;
+      background-color: rgb(255, 255, 255);
       box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 58px 0px rgba(0,0,0,0.75);
@@ -59,14 +55,14 @@ background: -moz-linear-gradient(267deg,#006f3d 10%, #00250e 90%);
   }
 
   .button-crear {
-   background-color: #006f3d;
+   background-color: #000000;
     color: white;
     border: 1px solid black;
   }
 
    
   .button-crear:hover {
-    background-color: #006f3d;
+    background-color: #444444;
      color: white;
      border: 1px solid black;
    }
